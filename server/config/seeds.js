@@ -24,6 +24,31 @@ db.once('open', async () => {
       price: 120,
       quantity: 10,
     },
+    {
+      name: 'Cabarete',
+      description:
+        'Black and white digital figure illustration with accented colours',
+      image: '/Images/p2.jpg',
+      category: categories[0]._id,
+      price: 110,
+      quantity: 10,
+    },
+    {
+      name: 'Paloma',
+      description: 'Full colour digital portrait of Paloma in No Time To Die',
+      image: '/Images/p3.jpg',
+      category: categories[0]._id,
+      price: 100,
+      quantity: 10,
+    },
+    {
+      name: 'Odette',
+      description: 'Full colour portrait of actress Odette Anabelle',
+      image: '/Images/p4.jpg',
+      category: categories[0]._id,
+      price: 90,
+      quantity: 10,
+    },
   ]);
 
   console.log('products seeded');
